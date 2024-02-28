@@ -3,7 +3,7 @@ import MovieTitle from "./MovieTitle";
 
 const MovieContainer = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black ">
       <MovieTitle />
       <MovieTrailer />
     </div>

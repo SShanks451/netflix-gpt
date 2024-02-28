@@ -1,8 +1,8 @@
 const VideoTitle = () => {
   return (
-    <div className="absolute w-[100%] aspect-video pt-[20%] px-24 text-white bg-gradient-to-r from-black">
+    <div className="absolute w-[100%] aspect-video pt-[18%] px-24 text-white bg-gradient-to-r from-black">
       <h1 className="-mt-8 text-6xl font-bold">ONE PIECE FILM RED</h1>
-      <p className="py-6 text-md w-3/5">
+      <p className="py-6 text-md w-3/5 text-xl text-slate-100">
         Uta — the most beloved singer in the world. Her voice, which she sings with while concealing her true identity, has been described as
         “otherworldly.” She will appear in public for the first time at a live concert. As the venue fills with all kinds of Uta fans — excited
         pirates, the Navy watching closely, and the Straw Hats led by Luffy who simply came to enjoy her sonorous performance — the voice that the
