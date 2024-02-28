@@ -17,7 +17,7 @@ const MoviePage = () => {
     setMovieDetails(json);
     // dispatch(addMovieDetails(json));
 
-    const rating_data = await fetch("http://www.omdbapi.com/?i=" + json.imdb_id + "&apikey=299c01ab");
+    const rating_data = await fetch("https://www.omdbapi.com/?i=" + json.imdb_id + "&apikey=299c01ab");
     const rating_json = await rating_data.json();
     setMovieRating(rating_json.imdbRating);
   };
