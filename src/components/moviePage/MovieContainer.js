@@ -1,11 +1,11 @@
 import MovieTrailer from "./MovieTrailer";
 import MovieTitle from "./MovieTitle";
 
-const MovieContainer = () => {
+const MovieContainer = ({ movieDetails, movieTrailer, movieRating }) => {
   return (
     <div className="bg-black ">
-      <MovieTitle />
-      <MovieTrailer />
+      <MovieTitle movieDetails={movieDetails} movieRating={movieRating} />
+      <MovieTrailer movieTrailer={movieTrailer} />
     </div>
   );
 };

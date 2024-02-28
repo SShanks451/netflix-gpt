@@ -1,7 +1,5 @@
-import { useSelector } from "react-redux";
-
-const MovieTrailer = () => {
-  const trailerVideo = useSelector((store) => store.moviePage?.movieTrailer);
+const MovieTrailer = ({ movieTrailer }) => {
+  const trailerVideo = movieTrailer;
 
   return (
     <div className="bg-black">

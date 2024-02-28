@@ -1,10 +1,6 @@
-import { useSelector } from "react-redux";
-
-const MovieTitle = () => {
-  const details = useSelector((store) => store.moviePage.movieDetails);
-  const rating = useSelector((store) => store.moviePage.movieRating);
-
-  if (!details) return;
+const MovieTitle = ({ movieDetails, movieRating }) => {
+  const details = movieDetails;
+  const rating = movieRating;
 
   const genres = details.genres.map((genre) => genre.name);
   const runtime = details.runtime;
